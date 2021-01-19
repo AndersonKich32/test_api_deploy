@@ -3,7 +3,7 @@ require('dotenv').config()
 var knex = require('knex')({
     client: 'mysql2',
     connection: {
-        host : 'mysql669.umbler.com',  
+        host : process.env.HOST,  
         user : process.env.USER,      
         password : process.env.PASSWORD,  
         database : process.env.DATABASE       
