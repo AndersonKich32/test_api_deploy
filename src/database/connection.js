@@ -3,10 +3,10 @@ require('dotenv').config()
 var knex = require('knex')({
     client: 'mysql2',
     connection: {
-        host : 'mysql742.umbler.com',  
+        host : 'mysql669.umbler.com',  
         user : process.env.USER,      
         password : process.env.PASSWORD,  
-        database : 'apitest '       
+        database : process.env.DATABASE       
      }
 });
 module.exports = knex
