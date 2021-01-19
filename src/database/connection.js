@@ -3,9 +3,9 @@ var knex = require('knex')({
     client: 'mysql2',
     connection: {
         host : 'mysql742.umbler.com',  
-        user : 'testapi',      
-        password : '97408469Bdc',  
-        database : 'apitest',
+        user : USER,      
+        password : PASSWORD,  
+        database : DATABASE,
         multiStatements: true      
      }
 });
