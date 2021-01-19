@@ -1,7 +1,4 @@
 
-
-console.log(usuario, senha)
-
 var knex = require('knex')({
     client: 'mysql2',
     connection: {
